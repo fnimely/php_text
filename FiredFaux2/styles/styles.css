@@ -1,0 +1,67 @@
+/*header element change and color*/
+#main-header{
+    text-align: center;
+    text-transform: uppercase;
+    color: lightgrey;
+    background-color: darkgreen;
+    margin: auto;
+    font-family: "Garamond", serif;
+    padding: 30px 50px 10px;
+    letter-spacing: 2px;
+}
+
+.disclaimer{
+    color: lightgrey;
+    font-size: 19px;
+    alignment: center;
+
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+footer:link {
+    color: darkgreen;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+
+.grt-logo {
+    height: 50%;
+}
+
+footer ul li {
+    list-style-type: none;
+}
